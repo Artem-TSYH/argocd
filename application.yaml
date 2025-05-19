@@ -8,7 +8,7 @@ spec:
 
   source:
     repoURL: https://github.com/Artem-TSYH/argocd.git
-    targetRevision: HEAD
+    targetRevision: main
     path: dev
   destination:
     server: https://kubernetes.default.svc
@@ -20,4 +20,3 @@ spec:
 
     automated:
       selfHeal: true
-      prune: true
